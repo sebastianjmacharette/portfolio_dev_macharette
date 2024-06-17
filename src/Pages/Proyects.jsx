@@ -12,9 +12,14 @@ function Proyects() {
   return (
     <div
     id='proyects'
-    className='h-full mx-auto   p-4 bg-gray-200'
+    className='h-full    p-4 bg-slate-100'
 >
+<div className="inline-flex lg:mb-6 sm:mt-4 items-center justify-center w-full">
+    <hr className="w-full h-1   border-2  bg-purple-700"/>
+    <span className="absolute px-3 font-medium text-purple-700 text-xl -translate-x-1/2 bg-white left-1/2 ">Proyectos</span>
+</div>
     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 lg:ml-8  '>
+    
         <Molachino/>
         <Lem/>
         <MedicOne/>

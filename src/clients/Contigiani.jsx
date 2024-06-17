@@ -3,7 +3,7 @@ import Logo from "../assets/clients/belen.jpg";
 function Contigiani() {
   return (
     <div className="lg:mt-6 sm:mt-2 flex justify-center items-center">
-  <div className="max-w-sm p-1 bg-slate-600 border-gray-200 rounded-lg shadow">
+  <div className="max-w-sm p-1 bg-purple-500 border-gray-200 rounded-lg shadow-xl">
     <div className="flex justify-center items-center">  
     <img className="w-36 h-36 rounded-full" src={Logo} alt="Rounded avatar"/>
     </div>

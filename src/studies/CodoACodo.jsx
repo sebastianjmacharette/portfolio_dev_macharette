@@ -10,7 +10,9 @@ function CodoACodo() {
 
 	return (
 		<div>
-			<button onClick={() => setOpen(true)}>Codo a Codo</button>
+			<button
+			className="w-24 px-2.5 py-3 text-white font-bold rounded-xl bg-purple-600 hover:bg-purple-700 hover:scale-105"
+			onClick={() => setOpen(true)}>Ver</button>
 			<Lightbox open={open} close={() => setOpen(false)} slides={images} />
 		</div>
 	);

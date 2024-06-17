@@ -18,15 +18,15 @@ function Meteo() {
   return (
     <div>
       {/* Contenido de la tarjeta */}
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div className="max-w-sm bg-purple-400 border border-gray-200 rounded-lg shadow shadow-purple-500  ">
         <img className="rounded-t-lg" src={Mola} alt="" />
 
         <div className="p-5">
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            Obtener estado Clima con api
+        <h5 className="mb-2 text-2xl font-bold tracking-tight  text-white">
+        Obtener estado Clima con api
           </h5>
 
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          <p className="mb-3 font-normal text-white text-center">
             App mediante se consume apis del clima, utilizando la
             geolocalizacion del navegador para poder visualizar el estado del
             tiempo en tu ubicación{" "}
@@ -35,7 +35,7 @@ function Meteo() {
           <button
             onClick={openModal}
             className="inline-flex items-center px-3 py-2 text-sm font-medium text-center
-             text-white bg-slate-800 rounded-lg hover:bg-slate-700 focus:ring-4 focus:outline-none 
+             text-white bg-purple-500 rounded-lg hover:bg-purple-600 focus:ring-4 focus:outline-none 
             "
           >
             Ver mas
@@ -61,8 +61,8 @@ function Meteo() {
       {/* Modal */}
       {modalOpen && (
         <div className="fixed inset-0 z-custom flex items-start justify-center overflow-auto bg-black bg-opacity-75 ">
-          <div className="relative z-60 w-full max-w-2xl p-8 mx-auto bg-gray-600 rounded-lg shadow-lg dark:bg-gray-800 mt-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
+          <div className="relative z-60 w-full max-w-2xl p-8 mx-auto bg-purple-700 rounded-lg shadow-lg   mt-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
               {/* Primer bloque de contenido */}
               <div className="mb-4 md:mb-0 md:pr-4">
                   {/* Imagen con enlace al PDF */}
@@ -103,7 +103,7 @@ function Meteo() {
             <div className="flex justify-end items-start mt-4">
               <button
                 onClick={closeModal}
-                className="bg-slate-800 px-4 py-2.5 rounded-lg text-white hover:bg-white hover:text-slate-800"
+                className="bg-white px-4 py-2.5 rounded-lg text-purple-700 hover:bg-purple-400 hover:text-white"
               >
                 Cerrar
               </button>

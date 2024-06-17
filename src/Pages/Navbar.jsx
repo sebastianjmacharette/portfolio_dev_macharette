@@ -51,7 +51,7 @@ function Navbar() {
 
     return (
         <div>
-            <nav ref={navbarRef}  className={`navbar bg-slate-900 ${isScrolled ? 'bg-opacity-70' : ''} ${isScrolled ? 'shadow-md' : ''} ${isScrolled ? 'fixed top-0' : ''} w-full`}>
+            <nav ref={navbarRef}  className={`navbar bg-purple-600 ${isScrolled ? 'bg-opacity-70' : ''} ${isScrolled ? 'shadow-md' : ''} ${isScrolled ? 'fixed top-0' : ''} w-full`}>
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a
                         href="https://flowbite.com/"
@@ -69,7 +69,7 @@ function Navbar() {
                         onClick={toggleMenu}
                         type="button"
                         className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm
-                             text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                             text-white rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                         aria-controls="navbar-default"
                         aria-expanded={menuOpen ? "true" : "false"}>
                         <span className="sr-only">

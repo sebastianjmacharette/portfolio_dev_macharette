@@ -5,8 +5,8 @@ function Footer() {
   const [anioActual, setAnioActual] = useState(new Date().getFullYear()); 
 
   return (
-    <div className='m-0 bg-slate-800'>
-      <footer className="bg-slate-800 rounded-lg shadow text-white">
+    <div className='m-0 bg-purple-600'>
+      <footer className="bg-purple-600rounded-lg shadow text-white">
         <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <div className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">

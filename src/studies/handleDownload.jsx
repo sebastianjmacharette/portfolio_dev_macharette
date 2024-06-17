@@ -16,7 +16,9 @@ const DownloadCV = () => {
 
   return (
     <div>
-      <button onClick={handleDownload}>Descargar CV</button>
+      <button
+      className="w-38 px-2.5 py-3 text-white font-bold rounded-xl bg-purple-600 hover:bg-purple-700 hover:scale-105"
+      onClick={handleDownload}>Descargar CV</button>
     </div>
   );
 };

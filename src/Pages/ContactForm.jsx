@@ -26,9 +26,9 @@ function ContactForm() {
   };
 
   return (
-    <div className="  shadow-2xl rounded-2xl">
+    <div className="  shadow-2xl mb-4 rounded-2xl">
       <form
-        className="  mx-auto p-10 bg-gray3400 shadow-2xl rounded-2xl"
+        className="  mx-auto p-10 bg-purple-400 shadow-2xl rounded-2xl"
         ref={form}
         onSubmit={sendEmail}
       >
@@ -80,7 +80,7 @@ function ContactForm() {
         <button
           type="submit"
           value="Send"
-          className="text-white bg-slate-700 border-gray-300 hover:scale-105 focus:outline-none hover:bg-slate-600 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+          className="text-white bg-purple-900 border-gray-300 hover:scale-105 focus:outline-none hover:bg-purple-800 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
         >
           Enviar
         </button>

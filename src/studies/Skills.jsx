@@ -84,7 +84,10 @@ function Skills() {
 	return (
         <div>
         {/* Botón para abrir la galería */}
-        <button onClick={() => setOpen(true)}>Skills</button>
+        <button
+              className="w-36 px-2.5 py-3 text-white font-bold rounded-xl bg-purple-600 hover:bg-purple-700 hover:scale-105"
+
+        onClick={() => setOpen(true)}>Skills</button>
 
         {/* Galería de imágenes */}
         {open && (

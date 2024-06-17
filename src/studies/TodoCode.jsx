@@ -11,9 +11,11 @@ function TodoCode() {
 
 	return (
 		<div>
-			<button onClick={() => setOpen(true)}>Todo Code</button>
-			<Lightbox open={open} close={() => setOpen(false)} slides={images} />
-		</div>
+		<button
+		className="w-24 px-2.5 py-3 text-white font-bold rounded-xl bg-purple-600 hover:bg-purple-700 hover:scale-105"
+		onClick={() => setOpen(true)}>Ver</button>
+		<Lightbox open={open} close={() => setOpen(false)} slides={images} />
+	</div>
 	);
 }
 

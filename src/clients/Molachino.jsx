@@ -3,7 +3,7 @@ import Logo from "../assets/clients/molachino.png";
 function Molachino() {
   return (
     <div className="lg:mt-6 sm:mt-2 flex justify-center items-center">
-      <div className="max-w-sm p-1 bg-slate-600 border-gray-200 rounded-lg shadow">
+      <div className="max-w-sm p-1 bg-purple-500 border-gray-200 rounded-lg shadow-xl">
         <div className="flex justify-center items-center">
           <img className=" px-4 h-20 mt-16  " src={Logo} alt="Default avatar" />
         </div>
