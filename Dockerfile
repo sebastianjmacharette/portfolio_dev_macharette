@@ -6,7 +6,7 @@ COPY portfolio/portfolio_dev_macharette/package*.json ./
 
 RUN npm install
 
-COPY portfolio_dev_macharette/ .
+COPY portfolio/portfolio_dev_macharette/ .
 
 RUN npm run build
 
