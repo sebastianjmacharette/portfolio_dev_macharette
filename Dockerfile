@@ -2,7 +2,7 @@ FROM node:18-alpine
 
 WORKDIR /app/portfolio_dev_macharette
 
-COPY /portfolio_dev_macharette/package*.jason ./
+COPY /portfolio_dev_macharette/package*.json ./
 
 RUN npm install
 
