@@ -19,6 +19,8 @@ import TodoCodeImage from '../assets/estudiosLogs/todocode.png';
 import CodigoFacilitoImage from '../assets/estudiosLogs/codigofacilito.png';
 import SkillsImage from '../assets/estudiosLogs/skills.png';
 import CvImage from '../assets/estudiosLogs/cv.png';
+import Oracle from '../studies/Oracle';
+import OracleImage from '../assets/estudiosLogs/oracleImages.png';
 
 function Study() {
     return (
@@ -44,6 +46,10 @@ function Study() {
                      <Telefonica />
                 </div>
                 <div className="flex flex-col items-center text-gray-800 text-xl  p-4">
+                    <img src={OracleImage} alt="" />
+                     <Oracle />
+                </div>
+                <div className="flex flex-col items-center text-gray-800 text-xl  p-4">
                     <img src={DonWebImage} alt="" />
                      <Donweb />
                 </div>
@@ -55,6 +61,7 @@ function Study() {
                     <img src={CodigoFacilitoImage} alt="" />
                      <CodigoFacilito />
                 </div>
+               
                 <div className="flex flex-col items-center text-gray-800 text-xl  p-4">
                     <img src={SkillsImage} alt="" />
                      <Skills />
@@ -63,6 +70,7 @@ function Study() {
                     <img src={CvImage} alt="" />
                      <DownloadCV />
                 </div>
+              
             </div>
         </div>
     );

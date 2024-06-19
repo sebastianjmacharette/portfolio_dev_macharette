@@ -13,7 +13,7 @@ function About() {
       </div>
       <div className="flex flex-col items-center sm:mt-10 lg:mt-0 justify-center lg:w-1/2 w-full pt-1 pb-1">
         {/* Contenido del primer div superior */}
-        <img className="h-64 p-4" src={Perfil} alt="Perfil" />
+        <img className="h-64 p-4 rounded-3xl " src={Perfil} alt="Perfil" />
         <a target="_blank" href="https://www.tiantech.com.ar">
           <p className="text-xl italic text-purple-600 font-semibold">
             Co-fundador de Tiantech+

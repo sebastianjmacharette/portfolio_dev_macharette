@@ -67,7 +67,7 @@ function AtuServicio() {
               {/* Primer bloque de contenido */}
               <div className="mb-4 md:mb-0 md:pr-4">
                 <h2 className="text-2xl text-center text-white lg:mt-10 font-bold mb-4">
-                  Sistema medico autoinstalable para windows
+                  A tu servicio
                 </h2>
                 <p className="text-justify text-white ">
                   Este proyecto es una plataforma web desarrollada en Java
