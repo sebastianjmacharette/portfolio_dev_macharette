@@ -30,7 +30,7 @@ function Study() {
     <span className="absolute px-3 font-medium text-purple-700 text-xl -translate-x-1/2 bg-white text-center left-1/2 ">Estudios y Capacitaciones</span>
 </div>            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 lg:px-20">
                 <div className="flex flex-col items-center text-gray-800 text-xl   p-4">
-                    <img src={EggImage} alt="" />
+                    <img   src={EggImage} alt="" />
                      <Egg />
                 </div>
                 <div className="flex flex-col items-center text-gray-800 text-xl   p-4">

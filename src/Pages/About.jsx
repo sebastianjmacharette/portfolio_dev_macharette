@@ -43,19 +43,39 @@ function About() {
           objetivos.
         </p>
       </div>
-      <div className="flex flex-col lg:flex-row items-center justify-center lg:w-1/2 w-full p-4 pt-1 pb-0  lg:mt-0 lg:flex lg:items-start">
-        {/* Contenido del segundo div inferior */}
+      <div className="flex flex-col items-center justify-center p-4 pt-1 pb-0 lg:flex-row">
+      {/* Contenido del segundo div inferior */}
+      <div className="lg:w-3/4 xl:w-1/2">
+        {/* Iframe para pantallas grandes */}
         <iframe
-          width="560"
+          className="hidden lg:block"
+          width="520"
           height="315"
           src="https://www.youtube.com/embed/gep4ZEmpFvo?si=Kg6ANKB29KLLRxDZ"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
+
+        {/* Iframe para pantallas pequeñas */}
+        <iframe
+          className="block lg:hidden"
+          width="100%"
+          height="315"
+          src="https://www.youtube.com/embed/gep4ZEmpFvo?si=Kg6ANKB29KLLRxDZ"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
         ></iframe>
       </div>
+    </div>
+
+
+
     </div>
   );
 }
